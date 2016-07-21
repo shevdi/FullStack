@@ -1,0 +1,154 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family: dejavuSans;
+	font-size: 28px;
+}
+
+#left-column{	
+	position:absolute;
+	left:125px;
+	top:150px;
+	padding:0px;
+	width:830px;
+	border:1px solid red;
+}
+
+#right-column{
+	position:absolute;
+	left:1100px;
+	top:150px;	
+	width:1270px;
+	border:1px solid red;
+}
+
+.inline{
+	display:inline-block;
+}
+
+.logo{
+	height:900px;
+	margin-bottom:90px;
+	font-family: dejavuSans;
+	font-size:110px;
+	text-align:center;
+}
+
+.logo svg{
+	margin-bottom:15px;
+}
+
+.logo div{
+	margin-bottom:-15px;
+}
+
+.lighter{
+	font-weight:lighter;	
+}
+
+.bold{
+	font-weight:bold;	
+}
+
+.logo >:last-child{
+	margin-top:20px;
+	font-size:42px;
+}
+
+.title{
+	height:140px;
+	padding:0px;
+	margin-bottom:35px;
+}
+
+.name{
+	position:relative;
+	bottom:33%;
+	text-align:left;
+	font-size:74px;
+	color:#3D6CB0;	
+	font-weight:bold;
+    font-family: merriweatherSans;
+}
+
+.title svg{
+	margin-right:15px;
+}
+
+.line{
+	position:relative;
+	top:43%;
+	height:10px;	
+	background: #3D6CB0;
+	float:right;
+}
+
+.line1{
+	width:330px;
+}
+
+.line2{
+	width:295px;
+}
+
+.line3{
+	width:395px;
+}
+
+.line4{
+	width:640px;
+}
+
+.line5{
+	width:620px;
+}
+
+.line6{
+	width:675px;
+}
+
+.section p{
+	line-height: 132%;
+}
+
+@font-face {
+    font-family: merriweatherSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/merriweather-sans/MerriweatherSans-Regular.otf');
+}
+
+@font-face {
+    font-family: merriweatherSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/merriweather-sans/MerriweatherSans-Bold.otf');
+}
+
+@font-face {
+    font-family: merriweatherSans;
+    font-style: normal;
+    font-weight: lighter;
+    src: url('fonts/merriweather-sans/MerriweatherSans-Light.otf');
+}
+
+@font-face {
+    font-family: dejavuSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/dejavu-sans/DejavuSans.ttf');
+}
+
+@font-face {
+    font-family: dejavuSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/dejavu-sans/DejavuSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: merriweatherSans;
+    font-style: normal;
+    font-weight: lighter;
+    src: url('fonts/merriweather-sans/DejaVuSans-ExtraLight.ttf');
+}
