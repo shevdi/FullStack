@@ -1,0 +1,40 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family: merriweatherSans;
+	font-size: 28px;
+
+}
+
+.top-stripe{
+	height:22px;
+	width:100%;
+	background:#04E4A2;
+}
+
+.menu{
+	height:78px;
+	width:100%;
+	background:#E94643;
+}
+
+.background{
+	height:583px;
+	width:100%;
+	background:#EF5350;
+}
+
+.bottom{
+	height:394px;
+	width:100%;
+}
+
+.footer{
+	height:70px;
+	width:100%;
+	background: #FEFCF2;
+}
+
+.photo{
+	margin-top:179px;
+	margin-left:219px;
