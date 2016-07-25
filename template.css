@@ -1,8 +1,11 @@
+
+
 body{
 	padding:0px;
 	margin:0px;
 	font-family: nunitoSans;
 	font-size: 18px;
+
 	
 }
 
@@ -60,7 +63,7 @@ body{
 	display:inline-block;	
 	margin-top:20px;	
 	vertical-align:middle;
-	width:48%;
+	width:54%;
 }
 
 .menu a{
@@ -94,8 +97,8 @@ body{
     background: #04E4A2;
     float:right;
     border-radius: 5px;
-    height: 40px;
-    width:164px;
+    height: 39px;
+    width:165px;
     color: #04E4A2;
     text-decoration: none;
     text-transform: uppercase;
@@ -105,7 +108,7 @@ body{
     padding-top:14px;
     text-align:center;
     vertical-align:middle;
-    margin-top:58px;
+    margin-top:57px;
 }
 
 .feedback{
@@ -117,7 +120,7 @@ body{
 .feedback input{
 	float:left;
 	padding: 12px 14px;
-	margin:17px 0px 0px 20px;
+	margin:15px 0px 0px 20px;
 	font-size:18px;
 	width:216px;
 	border: solid 3px #E3F2FD;
@@ -133,7 +136,7 @@ body{
 .feedback select{
 	float:left;
 	padding: 12px 14px;
-	margin:19px 0px 1px 20px;
+	margin:15px 0px 1px 20px;
 	font-size:18px;
 	width:250px;
 	border: solid 3px #E3F2FD;
@@ -194,7 +197,7 @@ body{
 
 .footer div{
 	display: inline-block;
-	width:14%;
+	width:20%;
 	text-align: center;
 }
 
