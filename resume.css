@@ -8,20 +8,20 @@ body{
 .left-column{	
 	margin-left:60px;
 	margin-right:0px;
-	margin-top:80px;
+	margin-top:150px;
 	padding:0px;
 }
 
 .right-column{
 	margin-left:60px;
-	margin-top:80px;
+	margin-top:117px;
 	margin-right:60px;
 	padding:0px;
 }
 
 .logo{
 	height:900px;
-	margin-bottom:158px;
+	margin-bottom:148px;
 	font-size:110px;
 	text-align:center;	
 }
@@ -37,32 +37,30 @@ body{
 
 .first-name{
 	font-size:98px;
-	margin-top: 12px;		
+	margin-top: 10px;		
 }
 
 .logo >:last-child{
-	margin-top:25px;
+	margin-top:27px;
 	font-size:42px;		
 }
 
 .title{
-	height:140px;
+	height:76px;
 	padding:0px;
 	margin-top:50px;
+	margin-bottom: 40px;
 }
 
 .name{
-	position: relative;
-	top:-10px;	
 	background-color:white;
 	margin-left:140px;
-	padding-right:15px;
+	padding-right:10px;
 	padding-left:20px;
 	text-align:left;
 	font-size:74px;
 	color:#3D6CB0;	
 	font-weight:bold;
-    /*font-family: merriweatherSans;    */
 }
 
 .title svg{
@@ -72,22 +70,33 @@ body{
 }
 
 .line{
-	margin-top:80px;
+	/*margin-top:80px;*/
 	height:10px;	
 	background: #3D6CB0;
 	width:100%;
 }
 
+.buffer-line{
+	margin-top:80px;
+	height:10px;	
+	background: white;
+	width:100%;
+}
+
 .section{
-	line-height: 132%;
-	margin-bottom: 160px;
+	line-height: 134%;
+	margin-top: 86px;
 }
 
 .section table{
-	margin-bottom: -60px;
-	margin-top:10px;
+	margin-bottom: 116px;
+	margin-top:46px;	
+	margin-left:-3px;
 }
 
+.section p{
+	margin-bottom: 156px;
+}
 
 .contact{
 	font-size: 38px;
@@ -98,7 +107,7 @@ body{
 }
 
 .contacts td{	
-	padding-bottom:70px;
+	padding: 36px 0;
 }
 
 .address{	
@@ -119,6 +128,10 @@ body{
 	background-color: #E6E6E6; 
 }
 
+.skills{
+	margin-top: 73px;
+}
+
 .skills div{
 	font-size:45px;
 	text-align:center;
@@ -126,7 +139,8 @@ body{
 }
 
 .exp, .edu{
-	margin-bottom: 40px;
+	margin-bottom: -41px;
+	margin-top: 58px;
 }
 
 .exp-header{
@@ -152,11 +166,35 @@ body{
 
 .exp-place{	
 	font-size: 45px;
-	margin: 30px 0px 20px 70px;
+	margin: 30px 0px 18px 94px;
 }
 
 .exp-desc{	
-	margin-left: 70px;	
+	margin-left: 94px;	
+}
+
+.expirience{	
+	margin-top: 200px;	
+}
+
+.expirience .title{	
+	margin-bottom: 90px;	
+}
+
+.expirience:last-child{	
+	margin-bottom: 90px;	
+}
+
+.software{
+	margin-top:202px;
+}
+
+.software:first-child{
+	margin-top:195px;
+}
+
+.software .title{
+	margin-bottom:72px;
 }
 
 .dot-black{
@@ -165,6 +203,8 @@ body{
 	height: 42px;
 	border-radius: 21px;
 	background-color: black; 
+	vertical-align: sub;
+	margin-left:12px;
 }
 
 .soft{
@@ -184,7 +224,7 @@ body{
 	height:35dpx;
 	background:#E6E6E6;
 	margin-top:36px;
-	margin-bottom:46px;
+	margin-bottom:48px;
 }
 
 .graph-percent{
@@ -197,57 +237,34 @@ body{
     font-family: merriweatherSans;
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/merriweather-sans/MerriweatherSans-Regular.otf');
+    src: local('merriweatherSans'),
+    	url('fonts/merriweather-sans/MerriweatherSans-Regular.otf') format('otf'),
+     	url('fonts/merriweather-sans/MerriweatherSans-Regular.woff') format('woff'),
+    	url('fonts/merriweather-sans/MerriweatherSans-Regular.svg') format('svg');
 }
 
 @font-face {
     font-family: merriweatherSans;
     font-style: normal;
     font-weight: bold;
-    src: url('fonts/merriweather-sans/MerriweatherSans-Bold.otf');
+    src: local('merriweatherSans'),
+    	url('fonts/merriweather-sans/MerriweatherSans-ExtraBold.otf') format('otf'),
+    	url('fonts/merriweather-sans/MerriweatherSans-ExtraBold.ttf') format('ttf'),
+    	url('fonts/merriweather-sans/MerriweatherSans-ExtraBold.woff') format('woff'),
+    	url('fonts/merriweather-sans/MerriweatherSans-ExtraBold.svg') format('svg');
 }
 
 @font-face {
     font-family: merriweatherSans;
     font-style: normal;
     font-weight: lighter;
-    src: url('fonts/merriweather-sans/MerriweatherSans-Light.otf');
+    src: local('merriweatherSans'),
+    	url('fonts/merriweather-sans/MerriweatherSans-Light.otf') format('otf'),
+    	url('fonts/merriweather-sans/MerriweatherSans-Light.ttf') format('ttf'),
+    	url('fonts/merriweather-sans/MerriweatherSans-Light.woff') format('woff'),
+    	url('fonts/merriweather-sans/MerriweatherSans-Light.svg') format('svg');
 }
 
-@font-face {
-    font-family: merriweatherSans;
-    font-style: normal;
-    font-weight: lighter;
-    src: url('fonts/merriweather-sans/DejaVuSans-ExtraLight.ttf');
-}
-
-@font-face {
-    font-family: dejavuSans;
-    font-style: normal;
-    font-weight: normal;
-    src: url('fonts/dejavu-sans/DejaVuSans.ttf');
-}
-
-@font-face {
-    font-family: dejaVuSans;
-    font-style: normal;
-    font-weight: bold;
-    src: url('fonts/dejavu-sans/DejaVuSans-Bold.ttf');
-}
-
-@font-face {
-    font-family: mOneSans;
-    font-style: normal;
-    font-weight: normal;
-    src: url('fonts/m-one-sans/mplus-1c-regular.ttf');
-}
-
-@font-face {
-    font-family: mOneSans;
-    font-style: normal;
-    font-weight: bold;
-    src: url('fonts/m-one-sans/mplus-1c-bold.ttf');
-}
 
 @media only screen and (max-width: 1620px) {
     .left-column{
@@ -276,6 +293,26 @@ body{
     }
 }
 
+@media only screen and (min-width: 1920px) {
+    .left-column{
+		display:inline-block;
+    	width:825px;
+    	margin-left:125px;
+    	margin-right:25px;
+    }
+
+    .right-column{	
+		display:inline-block; 
+		position: absolute;    	
+		max-width:44.5%;
+		margin-left:125px;
+		max-width: 1255px
+    }
+
+    .logo{
+    	margin-left: 25px;
+    }
+}
 
 
 
