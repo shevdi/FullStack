@@ -25,6 +25,7 @@ body{
 
 .background svg{
 	display:inline-block;
+	position: relative;
 }
 
 .bottom{
@@ -59,7 +60,7 @@ body{
 	display:inline-block;	
 	margin-top:22px;	
 	vertical-align:middle;
-	width:53;
+	width:53%;
 }
 
 .menu a{
@@ -255,13 +256,12 @@ body{
 }
 
 @media only screen and (max-width: 1320px) {
-/*    .info{
-		margin: 380px 0px 40px 100px;
-    }
 
-    .feedback{
-		margin: 50px 0px 40px 80px;
-    }*/
+	.background svg{
+    	position: initial;
+    	float:right;
+    	margin-right: 20%;
+	}
 
 
 	.feedback, .info{
@@ -280,5 +280,14 @@ body{
 
 	.bottom{
 		height:120%;
+	}
+}
+
+@media only screen and (max-width: 820px) {
+
+	.background svg{
+    	position: initial;
+    	float:right;
+    	margin-right: 20px;
 	}
 }
