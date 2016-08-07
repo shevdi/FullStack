@@ -1,7 +1,8 @@
 body{
 	padding:0px;
 	margin:0px;
-	font-family: merriweatherSans;
+	font-family: merriweatherSans, Arial, sans-serif;
+	font-color: black;
 	font-size: 28px;	
 	word-wrap: break-word;
 }
@@ -18,18 +19,43 @@ a{
 	padding:0px;
 }
 
-.right-column{
-	margin-left:60px;
-	margin-top:117px;
-	margin-right:60px;
-	padding:0px;
+@media only screen and (max-width: 1620px) {
+    .left-column{
+		display:block; 	
+		min-width:750px;
+    	width:90%;
+    }
+}
+
+@media only screen and (min-width: 1620px) {
+    .left-column{
+		display:inline-block;
+    	width:750px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .left-column{
+		display:inline-block;
+    	width:825px;
+    	margin-left:125px;
+    	margin-right:25px;
+    }
 }
 
 .logo{
-	margin-bottom:227px;
+	margin-bottom:178px;
 	font-size:110px;
 	text-align:center;	
+	text-transform: uppercase;
 }
+
+@media only screen and (min-width: 1920px) {
+    .logo{
+    	margin-left: 25px;
+    }
+}
+
 
 .logo svg{
 	text-align:center;
@@ -53,36 +79,35 @@ a{
 .title{
 	height:76px;
 	padding:0px;
-	margin-top:50px;
-	margin-bottom: 40px;
+	margin-bottom: 93px;
+	text-transform: uppercase;
 }
 
 .section-title{
 	background-color:white;
-	margin-left:140px;
+	margin-left:0px;
 	padding-right:10px;
-	padding-left:20px;
+	padding-left:16px;
 	text-align:left;
 	font-size:74px;
 	color:#3D6CB0;	
 	font-weight:bold;
+	vertical-align: middle;
 }
 
 .title svg{
-	padding-right:0px;
-	margin-top:-70px;
-	vertical-align: top;	
+	margin-right: -10px;
+	vertical-align: middle;	
 }
 
 .line{
-	/*margin-top:80px;*/
+	margin-top:53px;
 	height:10px;	
 	background: #3D6CB0;
 	width:100%;
 }
 
 .buffer-line{
-	margin-top:80px;
 	height:10px;	
 	background: white;
 	width:100%;
@@ -90,15 +115,14 @@ a{
 
 .section{
 	line-height: 134%;
-	margin-top: 86px;
 }
 
 .section p{
-	margin-bottom: 156px;
+	margin-bottom: 104px;
 }
 
 .contacts{
-	margin-top:87px;
+	margin-top:136px;
 }
 
 .contacts-title{
@@ -108,6 +132,7 @@ a{
 	width:30%;
 	font-weight:bold;
 	padding-left: 0px;
+	text-transform: uppercase;
 }
 
 .contacts span{	
@@ -134,7 +159,12 @@ a{
 }
 
 .section-skills{
-	margin-top: 80px;
+	margin-top: 29px;
+}
+
+.skills{
+	margin-top: 120px;	
+	line-height: 170%;
 }
 
 .dot{
@@ -150,15 +180,49 @@ a{
 	background-color: #E6E6E6; 
 }
 
-.skills{
-	margin-top: 73px;	
-	line-height: 170%;
-}
-
 .skills div{
 	font-size:45px;
 	text-align:center;
 	margin-bottom:21px;
+	text-transform: uppercase;
+}
+
+
+.right-column{
+	margin-left:60px;
+	margin-top:117px;
+	margin-right:60px;
+	padding:0px;
+}
+
+@media only screen and (max-width: 1620px) {
+    .right-column{
+		display:block;
+		min-width:720px;
+    	width:90%;
+    }
+}
+
+@media only screen and (min-width: 1620px) {
+    .right-column{	
+		display:inline-block; 
+		position: absolute;    	
+		max-width:53%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .right-column{	
+		display:inline-block; 
+		position: absolute;    	
+		max-width:44.5%;
+		margin-left:125px;
+		max-width: 1255px
+    }
+}
+
+.section-education{
+	margin-top: 34px;
 }
 
 .exp, .edu{
@@ -173,10 +237,12 @@ a{
 	color: #3D6CB0;
 	margin-left:20px;
 	font-weight:bold;
+	text-transform: uppercase;
 }
 
 .exp .exp-name{
 	color: black;
+	text-transform: uppercase;
 }
 
 .exp-date{
@@ -187,6 +253,7 @@ a{
 .exp-place{	
 	font-size: 45px;
 	margin: 30px 0px 18px 94px;
+	text-transform: uppercase;
 }
 
 .exp-desc{	
@@ -194,16 +261,15 @@ a{
 }
 
 .section-expirience{	
-	margin-top: 162px;	
+	margin-top: 104px;	
 }
 
 .section-expirience .title{	
-	margin-bottom: 70px;	
+	margin-bottom: 123px;	
 }
 
-
 .section-software{
-	margin-top:156px;
+	margin-top:109px;
 }
 
 .section-software:first-child{
@@ -211,7 +277,7 @@ a{
 }
 
 .section-software .title{
-	margin-bottom:67px;
+	margin-bottom:118px;
 }
 
 .dot-black{
@@ -230,6 +296,7 @@ a{
 	margin-right:0;	
 	font-size:46px;
 	line-height: 120%;
+	text-transform: uppercase;
 }
 
 .soft:nth-child(2n){
@@ -283,53 +350,7 @@ a{
 }
 
 
-@media only screen and (max-width: 1620px) {
-    .left-column{
-		display:block; 	
-		min-width:750px;
-    	width:90%;
-    }
 
-    .right-column{
-		display:block;
-		min-width:720px;
-    	width:90%;
-    }
-}
-
-@media only screen and (min-width: 1620px) {
-    .left-column{
-		display:inline-block;
-    	width:750px;
-    }
-
-    .right-column{	
-		display:inline-block; 
-		position: absolute;    	
-		max-width:53%;
-    }
-}
-
-@media only screen and (min-width: 1920px) {
-    .left-column{
-		display:inline-block;
-    	width:825px;
-    	margin-left:125px;
-    	margin-right:25px;
-    }
-
-    .right-column{	
-		display:inline-block; 
-		position: absolute;    	
-		max-width:44.5%;
-		margin-left:125px;
-		max-width: 1255px
-    }
-
-    .logo{
-    	margin-left: 25px;
-    }
-}
 
 
 
