@@ -2,7 +2,13 @@ body{
 	padding:0px;
 	margin:0px;
 	font-family: merriweatherSans;
-	font-size: 28px;
+	font-size: 28px;	
+	word-wrap: break-word;
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }
 
 .left-column{	
@@ -20,8 +26,7 @@ body{
 }
 
 .logo{
-	height:900px;
-	margin-bottom:148px;
+	margin-bottom:227px;
 	font-size:110px;
 	text-align:center;	
 }
@@ -40,7 +45,7 @@ body{
 	margin-top: 10px;		
 }
 
-.logo >:last-child{
+.profession{
 	margin-top:27px;
 	font-size:42px;		
 }
@@ -52,7 +57,7 @@ body{
 	margin-bottom: 40px;
 }
 
-.name{
+.section-title{
 	background-color:white;
 	margin-left:140px;
 	padding-right:10px;
@@ -88,31 +93,48 @@ body{
 	margin-top: 86px;
 }
 
-.section table{
-	margin-bottom: 116px;
-	margin-top:46px;	
-	margin-left:-3px;
-}
-
 .section p{
 	margin-bottom: 156px;
 }
 
-.contact{
+.contacts{
+	margin-top:87px;
+}
+
+.contacts-title{
 	font-size: 38px;
 	color: #3D6CB0;
 	margin:20px 40px;
-	width:250px;
+	width:30%;
 	font-weight:bold;
+	padding-left: 0px;
 }
 
-.contacts td{	
-	padding: 36px 0;
+.contacts span{	
+	padding: 0px;
+	margin: 0px;
 }
 
-.address{	
+.contacts>div{
+	height: 109px;
+}
+
+.contacts-title{	
+	margin: 0px;
+	width: 255px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contacts-info{	
 	color:black;
 	font-size:34px;
+	display: inline-block;
+	width: 60%;
+}
+
+.section-skills{
+	margin-top: 80px;
 }
 
 .dot{
@@ -129,18 +151,18 @@ body{
 }
 
 .skills{
-	margin-top: 73px;
+	margin-top: 73px;	
+	line-height: 170%;
 }
 
 .skills div{
 	font-size:45px;
 	text-align:center;
-	margin-bottom:26.5px;
+	margin-bottom:21px;
 }
 
 .exp, .edu{
-	margin-bottom: -41px;
-	margin-top: 58px;
+	padding-top: 18px;
 }
 
 .exp-header{
@@ -151,7 +173,6 @@ body{
 	color: #3D6CB0;
 	margin-left:20px;
 	font-weight:bold;
-	margin-right:-70px;
 }
 
 .exp .exp-name{
@@ -161,7 +182,6 @@ body{
 .exp-date{
 	display:inline-block;
 	padding-top:20px;
-	padding-left:70px;
 }
 
 .exp-place{	
@@ -173,28 +193,25 @@ body{
 	margin-left: 94px;	
 }
 
-.expirience{	
-	margin-top: 200px;	
+.section-expirience{	
+	margin-top: 162px;	
 }
 
-.expirience .title{	
-	margin-bottom: 90px;	
+.section-expirience .title{	
+	margin-bottom: 70px;	
 }
 
-.expirience:last-child{	
-	margin-bottom: 90px;	
+
+.section-software{
+	margin-top:156px;
 }
 
-.software{
-	margin-top:202px;
-}
-
-.software:first-child{
+.section-software:first-child{
 	margin-top:195px;
 }
 
-.software .title{
-	margin-bottom:72px;
+.section-software .title{
+	margin-bottom:67px;
 }
 
 .dot-black{
@@ -212,7 +229,7 @@ body{
 	width:45%;
 	margin-right:0;	
 	font-size:46px;
-	line-height:1em;
+	line-height: 120%;
 }
 
 .soft:nth-child(2n){
@@ -223,7 +240,7 @@ body{
 	width:100%;
 	height:35dpx;
 	background:#E6E6E6;
-	margin-top:36px;
+	margin-top:28px;
 	margin-bottom:48px;
 }
 

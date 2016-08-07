@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>résumé</title>
+	<title>résumé</title>	<!-- TODO ask manager -->
+	<meta name="description" content=""> <!-- TODO ask manager -->
+	<meta name="keywords" content="">	<!-- TODO ask manager -->	
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<link rel="shortcut icon" href="images/myfavicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="css/resume.css">
 </head>
 <body>
@@ -13,13 +17,13 @@
 				<circle cx="258" cy="258" r="202" fill="#3D6CB0" />
 			</svg>
 			<div class="first-name">NAME HERE</div>
-			<div><b>SURNAME</b></div>
-			<div><b>GRAPHIC DESIGNER</b></div>
+			<div class="last-name"><b>SURNAME</b></div>
+			<div class="profession"><b>GRAPHIC DESIGNER</b></div>
 		</div>
-		<div class="section">
+		<div class="section section-profile">
 			<div class="title">	
 				<div class="buffer-line">
-					<span class="name">PROFILE</span>
+					<span class="section-title">PROFILE</span>
 				</div>	
 				<div class="line"></div>	
 				<svg width="140" height="140">
@@ -35,14 +39,14 @@
 					</g>
 				</svg>					
 			</div>
-			<p>
+			<p class="profile-text">
 				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
 			</p>
 		</div>
-		<div class="section">
+		<div class="section section-contacts">
 			<div class="title">		
 				<div class="buffer-line">
-					<span class="name">CONTACT</span>
+					<span class="section-title">CONTACT</span>
 				</div>	
 				<div class="line"></div>	
 				<svg width="140" height="140">
@@ -60,30 +64,30 @@
 				</svg>					
 			</div>
 			
-			<table class="contacts">
-				<tr>
-					<td class="contact">ADDREESS</td>
-					<td class="address">Main Street, City</td>
-				</tr>
-				<tr>
-					<td class="contact">E-MAIL</td>
-					<td class="address">contact@domain.com</td>
-				</tr>
-				<tr>
-					<td class="contact">PHONE</td>
-					<td class="address">1123-412-3223</td>
-				</tr>
-				<tr>
-					<td class="contact">WEBSITE</td>
-					<td class="address">wonderfullsite.org</td>
-				</tr>
-			</table>
+			<div class="contacts">
+				<div class="contacts-address">
+					<div class="contacts-title">ADDREESS</div>
+					<div class="contacts-info">Main Street, City</div>
+				</div>
+				<div class="contacts-email">
+					<div class="contacts-title">E-MAIL</div>
+					<div class="contacts-info"><a href="mailto: contact@domain.com">contact@domain.com</a></div>
+				</div>
+				<div contacts-phone>
+					<div class="contacts-title">PHONE</div>
+					<div class="contacts-info"><a href="tel: 1123-412-3223">1123-412-3223</a></div>
+				</div>
+				<div contacts-phone>
+					<div class="contacts-title">WEBSITE</div>
+					<div class="contacts-info"><a href="wonderfullsite.org">wonderfullsite.org</a></div>
+				</div>
+			</div>
 			
 		</div>
-		<div class="section">
+		<div class="section section-skills">
 			<div class="title">		
 				<div class="buffer-line">
-					<span class="name">SKILLS</span>
+					<span class="section-title">SKILLS</span>
 				</div>	
 				<div class="line"></div>	
 				<svg width="140" height="140">
@@ -102,7 +106,7 @@
 				</svg>					
 			</div>
 			<div class=skills>
-				<div>CREATIVE</div>
+				<div class="skills-name">CREATIVE</div>
 				<div class="dots">
 					<div class="dot"></div>
 					<div class="dot"></div>
@@ -117,7 +121,7 @@
 					<div class="dot dot-off"></div>
 					<div class="dot dot-off"></div>
 				</div>
-				<div>TEAMWORK</div>
+				<div class="skills-name">TEAMWORK</div>
 				<div class="dots">
 					<div class="dot"></div>
 					<div class="dot"></div>
@@ -132,7 +136,7 @@
 					<div class="dot dot-off"></div>
 					<div class="dot dot-off"></div>
 				</div>
-				<div>INNOVATE</div>
+				<div class="skills-name">INNOVATE</div>
 				<div class="dots">
 					<div class="dot"></div>
 					<div class="dot"></div>
@@ -147,7 +151,7 @@
 					<div class="dot dot-off"></div>
 					<div class="dot dot-off"></div>
 				</div>
-				<div>COMMUNICATION</div>
+				<div class="skills-name">COMMUNICATION</div>
 				<div class="dots">
 					<div class="dot"></div>
 					<div class="dot"></div>
@@ -166,10 +170,10 @@
 		</div>
 	</div>
 	<div class="right-column">
-		<div class="section">				
+		<div class="section section-education">				
 			<div class="title">		
 				<div class="buffer-line">
-					<span class="name">EDUCATION</span>
+					<span class="section-title">EDUCATION</span>
 				</div>	
 				<div class="line"></div>
 				<svg width="140" height="140">
@@ -224,15 +228,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="section expirience">
+		<div class="section section-expirience">
 			<div class="title">		
 				<div class="buffer-line">
-					<span class="name">EXPIRIENCE</span>
+					<span class="section-title">EXPIRIENCE</span>
 				</div>	
 				<div class="line"></div>	
 				<svg width="140" height="140">
-					<rect width="300" height="100%" fill="white" />
-					<circle cx="70" cy="70" stroke="#3D6CB0" stroke-width="1" fill="white" />
+					<rect width="300" height="100%" fill="white" />		
+					<circle cx="70" cy="70" r="70" stroke="#3D6CB0" stroke-width="1" fill="white" />			
 					<circle cx="70" cy="70" r="65" fill="#3D6CB0" />
 					<circle cx="70" cy="55" r="21" stroke="white" stroke-width="6" fill="#3D6CB0" />
 					<rect x="32" y="48" width="78" height="57" fill="white" />
@@ -272,10 +276,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="section software">
+		<div class="section section-software">
 			<div class="title">		
 				<div class="buffer-line">
-					<span class="name">SOFTWARE</span>
+					<span class="section-title">SOFTWARE</span>
 				</div>	
 				<div class="line"></div>	
 				<svg width="140" height="140">
